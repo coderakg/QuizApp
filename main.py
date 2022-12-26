@@ -12,7 +12,7 @@ for question in question_data:
 
 
 quiz = QuizBrain(question_bank)
-quiz_ui = QuizInterface(quiz) # calling the user interface class and then passing the quiz class in it to get questions
+quiz_ui = QuizInterface(quiz)
 
 while quiz.still_has_questions():
     quiz.next_question()
